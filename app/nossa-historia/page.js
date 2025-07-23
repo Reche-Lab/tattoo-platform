@@ -14,7 +14,7 @@ export const metadata = {
     url: `${siteConfig.name}/nossa-historia`,
     images: [
       {
-        url: `${siteConfig.name}/estudio-sobre.jpeg`,
+        url: `${siteConfig.name}/og-image.jpg`,
         width: 1200,
         height: 630,
         alt: `Fachada do ${siteConfig.name} em Ubatuba`,

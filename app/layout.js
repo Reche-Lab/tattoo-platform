@@ -13,6 +13,21 @@ export const metadata = {
   },
   description: 'Primeiro estúdio de tatuagem em Ubatuba fundado por mulheres. Tatuagens autorais, fineline, blackwork e geometria sagrada em um ambiente seguro e acolhedor.',
   keywords: ['tatuagem ubatuba', 'estúdio de tatuagem ubatuba', 'tatuagem fineline', 'tatuagem blackwork', 'tatuadoras mulheres', `${siteConfig.name}`],
+  openGraph: {
+    title: `${siteConfig.name} - Tatuagem Autoral em Ubatuba`,
+    description: 'Primeiro estúdio de tatuagem em Ubatuba fundado por mulheres. Tatuagens autorais, fineline, blackwork e geometria sagrada em um ambiente seguro e acolhedor.',
+    url: siteConfig.url,
+    images: [
+      {
+        url: `${siteConfig.url}/og-image.jpg`,
+        width: 1200,
+        height: 630,
+        alt: `${siteConfig.name} - Tatuagem Autoral em Ubatuba`,
+      },
+    ],
+    siteName: siteConfig.name,
+    type: 'website',
+  },
 };
 
 export default function RootLayout({ children }) {

@@ -2,10 +2,27 @@
 
 import Header from '@/app/components/Header';
 import CustomMap from '@/app/components/CustomMap';
+import { siteConfig } from '@/config/site';
 
 export const metadata = {
   title: 'Contato e Localização',
   description: 'Encontre nosso estúdio de tatuagem em Ubatuba. Veja nosso endereço no mapa, e-mail e WhatsApp para agendamentos.',
+  keywords: ['contato estúdio de tatuagem', 'localização ubatuba', 'estúdio de tatuagem contato', 'tatuagem ubatuba', 'agendamento tatuagem'],
+  openGraph: {
+    title: `Contato e Localização - ${siteConfig.name}`,
+    description: 'Encontre nosso estúdio de tatuagem em Ubatuba. Veja nosso endereço no mapa, e-mail e WhatsApp para agendamentos.',
+    url: `${process.env.NEXT_PUBLIC_SITE_URL}/contato`,
+    images: [
+      {
+        url: `${process.env.NEXT_PUBLIC_SITE_URL}/og-image.jpg`,
+        width: 1200,
+        height: 630,
+        alt: 'Mapa de localização do Estúdio Místico em Ubatuba',
+      },
+    ],
+    siteName: `${siteConfig.name}`,
+    type: 'website',
+  },
 };
 
 export default function PaginaContato() {
