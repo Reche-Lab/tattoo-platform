@@ -6,6 +6,8 @@ Desenvolvido com tecnologias de ponta, o site oferece uma experiência de usuár
 
 [🔗 Acesse o site ao vivo aqui](Link para o deploy na Vercel quando estiver pronto)
 
+![Demonstração do Website](public/website.gif)
+
 ---
 
 ---
