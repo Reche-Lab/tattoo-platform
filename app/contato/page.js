@@ -14,7 +14,7 @@ export const metadata = {
     url: `${process.env.NEXT_PUBLIC_SITE_URL}/contato`,
     images: [
       {
-        url: `${process.env.NEXT_PUBLIC_SITE_URL}/og-image.jpg`,
+        url: `${process.env.NEXT_PUBLIC_SITE_URL}/og-image.png`,
         width: 1200,
         height: 630,
         alt: 'Mapa de localização do Estúdio Místico em Ubatuba',
