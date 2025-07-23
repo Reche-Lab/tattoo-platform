@@ -1,4 +1,3 @@
-````markdown
 # ✨ Estúdio Místico - Website
 
 Bem-vindo ao repositório é um template completo para um website de um estudio de tatuagem, no exemplo o Estúdio Místico, o primeiro estúdio de tatuagem em Ubatuba fundado e operado por mulheres. Este projeto é mais do que um site: é um portal digital que busca capturar a essência mística, artística e acolhedora do nosso espaço físico.
@@ -57,7 +56,7 @@ Para clonar e rodar esta aplicação em seu ambiente local, siga os passos abaix
 ### 1. Clone o Repositório
 
 ```bash
-git clone [https://github.com/seu-usuario/estudio-mistico.git](https://github.com/seu-usuario/estudio-mistico.git)
+git clone [https://github.com/seu-usuario/estudio-mistico.git](https://github.com/Reche-Lab/estudio-mistico.git)
 cd estudio-mistico
 ````
 
