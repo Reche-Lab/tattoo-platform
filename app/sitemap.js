@@ -1,5 +1,5 @@
 // app/sitemap.js
-import { artistas } from './data/artistas';
+import { artistas } from '@/data/artistas';
 
 export default function sitemap() {
   const baseUrl = process.env.NEXT_PUBLIC_SITE_URL;

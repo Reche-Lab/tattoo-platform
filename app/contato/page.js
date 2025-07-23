@@ -1,7 +1,7 @@
 // app/contato/page.js
 
-import Header from '../components/Header';
-import CustomMap from '../components/CustomMap';
+import Header from '@/app/components/Header';
+import CustomMap from '@/app/components/CustomMap';
 
 export const metadata = {
   title: 'Contato e Localização',

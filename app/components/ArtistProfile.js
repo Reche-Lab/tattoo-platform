@@ -6,8 +6,8 @@ import { useParams } from 'next/navigation';
 import { artistas } from '@/data/artistas';
 import Image from 'next/image';
 import Link from 'next/link';
-import Header from './Header'; // O caminho relativo muda
-import PortfolioModal from './PortfolioModal';
+import Header from '@/app/components/Header';
+import PortfolioModal from '@/app/components/PortfolioModal';
 
 function getArtista(id) {
   return artistas.find((artista) => artista.id === id);

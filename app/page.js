@@ -4,8 +4,8 @@
 
 import { Canvas } from '@react-three/fiber';
 import { OrbitControls } from '@react-three/drei';
-import MysticObject from './components/MysticObject';
-import Header from './components/Header';
+import MysticObject from '@/app/components/MysticObject';
+import Header from '@/app/components/Header';
 import Link from 'next/link';
 import Image from 'next/image';
 import { siteConfig } from '@/config/site';

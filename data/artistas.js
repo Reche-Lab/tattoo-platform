@@ -1,5 +1,3 @@
-// data/artistas.js (versão atualizada)
-
 export const artistas = [
   {
     id: 'luna-orion',

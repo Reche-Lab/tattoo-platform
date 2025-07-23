@@ -1,6 +1,6 @@
 // app/nossa-historia/page.js
 
-import Header from '../components/Header';
+import Header from '@/app/components/Header';
 import Image from 'next/image';
 import { siteConfig } from '@/config/site';
 
