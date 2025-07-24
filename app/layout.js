@@ -1,17 +1,11 @@
 // app/layout.js
 
-import { Inter, Cormorant_Garamond, Dancing_Script } from "next/font/google";
+import { Inter, Dancing_Script } from "next/font/google";
 import { siteConfig } from '@/config/site';
 import "@/app/globals.css";
 import Footer from "@/app/components/Footer";
 
 const inter = Inter({ subsets: ["latin"], variable: '--font-inter' });
-const cormorant = Cormorant_Garamond({
-  subsets: ["latin"],
-  weight: ["400", "700"],
-  variable: '--font-cormorant',
-});
-
 const dancingScript = Dancing_Script({
   subsets: ["latin"],
   weight: ["400", "700"],
@@ -20,8 +14,8 @@ const dancingScript = Dancing_Script({
 
 export const metadata = {
   title: {
-    default: `${siteConfig.name} - Tatuagem Autoral em Ubatuba`, // Título padrão
-    template: `%s | ${siteConfig.name} Ubatuba`, // Modelo para outras páginas
+    default: `${siteConfig.name} - Tatuagem Autoral em Ubatuba`,
+    template: `%s | ${siteConfig.name} Ubatuba`,
   },
   description: 'Primeiro estúdio de tatuagem em Ubatuba fundado por mulheres. Tatuagens autorais, fineline, blackwork e geometria sagrada em um ambiente seguro e acolhedor.',
   keywords: ['tatuagem ubatuba', 'estúdio de tatuagem ubatuba', 'tatuagem fineline', 'tatuagem blackwork', 'tatuadoras mulheres', `${siteConfig.name}`],
@@ -45,7 +39,6 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="pt-br" className={`${inter.variable} ${dancingScript.variable}`}>
-      {/* ADICIONE h-full AQUI */}
       <body className={`${inter.className} h-full bg-black`}>
         {children}
          <Footer />
