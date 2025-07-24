@@ -3,7 +3,7 @@
 import Header from '@/app/components/Header';
 import CustomMap from '@/app/components/CustomMap';
 import { siteConfig } from '@/config/site';
-import BackgroundPrism from '@/app/components/BackgroundPrism';
+// import BackgroundPrism from '@/app/components/BackgroundPrism';
 
 export const metadata = {
   title: 'Contato e Localização',
@@ -30,7 +30,7 @@ export default function PaginaContato() {
   return (
     <div className="relative min-h-screen text-white overflow-hidden">
       <Header />
-      <BackgroundPrism />
+      {/* <BackgroundPrism /> */}
       <div className="container mx-auto px-4 py-24">
         <div className="text-center mb-12">
           <h1 className="text-4xl md:text-6xl font-thin uppercase tracking-widest text-purple-300">
