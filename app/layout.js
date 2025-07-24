@@ -1,10 +1,22 @@
 // app/layout.js
 
-import { Inter } from "next/font/google";
+import { Inter, Cormorant_Garamond, Dancing_Script } from "next/font/google";
 import { siteConfig } from '@/config/site';
 import "@/app/globals.css";
+import Footer from "@/app/components/Footer";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({ subsets: ["latin"], variable: '--font-inter' });
+const cormorant = Cormorant_Garamond({
+  subsets: ["latin"],
+  weight: ["400", "700"],
+  variable: '--font-cormorant',
+});
+
+const dancingScript = Dancing_Script({
+  subsets: ["latin"],
+  weight: ["400", "700"],
+  variable: '--font-dancing-script',
+});
 
 export const metadata = {
   title: {
@@ -32,10 +44,11 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="pt-br">
+    <html lang="pt-br" className={`${inter.variable} ${dancingScript.variable}`}>
       {/* ADICIONE h-full AQUI */}
       <body className={`${inter.className} h-full bg-black`}>
         {children}
+         <Footer />
       </body>
     </html>
   );
