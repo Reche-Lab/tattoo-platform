@@ -9,7 +9,7 @@ export default function Footer() {
   return (
     <footer className="fixed bottom-4 right-4 z-50">
       <Link 
-        href="https://www.rechelab.com" 
+        href="https://reche-lab-portfolio.vercel.app" 
         target="_blank"
         rel="noopener noreferrer"
         className="footer-signature"
